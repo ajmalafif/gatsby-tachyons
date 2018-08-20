@@ -1,4 +1,8 @@
-# gatsby-starter-default
+# TODO
+- [ ] [Check Gatsby SASS](https://github.com/gatsbyjs/gatsby/tree/master/examples/using-sass)
+- [ ] How to load font with typeface & `npm i inter-UI`
+
+## gatsby-starter-default
 The default Gatsby starter.
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
