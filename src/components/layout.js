@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
+import Noscript from './noscript'
 import './layout.css'
 
 const Layout = ({ children, data }) => (
@@ -27,15 +28,8 @@ const Layout = ({ children, data }) => (
           ]}
         >
           <html lang="en" />
-          <noscript>
-            <iframe
-              src="https://www.googletagmanager.com/ns.html?id=GTM-KLZLVML"
-              height="0"
-              width="0"
-              style="display: none; visibility: hidden"
-            ></iframe>
-          </noscript>
         </Helmet>
+        <Noscript />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
