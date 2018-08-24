@@ -27,6 +27,14 @@ const Layout = ({ children, data }) => (
           ]}
         >
           <html lang="en" />
+          <noscript>
+            <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-KLZLVML"
+              height="0"
+              width="0"
+              style="display: none; visibility: hidden"
+            ></iframe>
+          </noscript>
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
