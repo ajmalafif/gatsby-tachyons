@@ -29,7 +29,6 @@ const Layout = ({ children, data }) => (
         >
           <html lang="en" />
         </Helmet>
-        <Noscript />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
