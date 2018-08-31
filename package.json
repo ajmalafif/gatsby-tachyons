@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "next",
+    "gatsby": "^2.0.0-rc.7",
     "gatsby-plugin-google-tagmanager": "^1.0.19",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "next",
