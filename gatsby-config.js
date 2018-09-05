@@ -4,15 +4,6 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
-    {
-      resolve: `gatsby-plugin-google-tagmanager`,
-      options: {
-        id: 'GTM-MG3CC3G',
-      },
-      // Include in GTM dev
-      includeInDevelopment: true,
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
