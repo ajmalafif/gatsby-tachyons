@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Gatsby v2 Tachyons',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -8,8 +8,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'gatsby-v2-tachyons',
+        short_name: 'gatchyons',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',

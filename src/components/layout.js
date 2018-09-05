@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
-import './layout.scss'
+import './layout.css'
 
 const Layout = ({ children, data }) => (
   <StaticQuery
@@ -27,6 +27,11 @@ const Layout = ({ children, data }) => (
           ]}
         >
           <html lang="en" />
+          {/* noscript elements */}
+          <noscript>{`
+          Your browser does not support JavaScript!
+          `}</noscript>
+
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
